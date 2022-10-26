@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    
+}
+
+#secreto{
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+#secreto:hover{
+    opacity: 1;
+    color: white;
+    text-align: center;
+
+}
+
+
+#tabela{
+ margin-top: 300px;   
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+}
+
+#espiral{
+    width: 10%;
+    align-self: center;
+    animation: espiral .6s linear infinite;
+    
+}
+
+
+@keyframes espiral{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
